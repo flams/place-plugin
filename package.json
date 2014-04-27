@@ -1,0 +1,48 @@
+{
+  "name": "place-plugin",
+  "description": "A Seam plugin for declaratively appending seam views to the DOM.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/flams/place-plugin",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/flams/place-plugin/master/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "author": "Olivier Scherrer <pode.fr@gmail.com>",
+  "contributors": [
+    "Olivier Scherrer <pode.fr@gmail.com>",
+    "Olivier Wietrich <olivier.wietrich@gmail.com"
+  ],
+  "keywords": [
+    "seam",
+    "plugin",
+    "place",
+    "ui",
+    "view",
+    "views",
+    "dom",
+    "declarative"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flams/place-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flams/place-plugin/issues"
+  },
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "main": "index.js",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}
