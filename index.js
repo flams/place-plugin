@@ -87,6 +87,8 @@ module.exports = function PlacePluginConstructor($uis) {
         return _uis[name];
     };
 
-    this.setAll($uis);
+    if ($uis) {
+        this.setAll($uis);
+    }
 
 };
